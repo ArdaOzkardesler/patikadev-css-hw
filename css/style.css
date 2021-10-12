@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #deba9d;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.logo {
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.logo h1 {
+  color: #6f4c5b;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.menu {
+  width: 500px;
+  margin: auto;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+li a {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #6f4c5b;
+  font-weight: bold;
+  text-decoration: none;
+}
+li a:hover {
+  color: #9e7777;
+}
+.home-text {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  border-radius: 5px;
+
+  font-family: "Poppins", sans-serif;
+  color: #6f4c5b;
+}
+.products {
+  padding: 0px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card {
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #6f4c5b;
+  border-radius: 10px;
+  margin: 5px 0px;
+  background-color: #e9dcba;
+}
+.about {
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  color: #6f4c5b;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
